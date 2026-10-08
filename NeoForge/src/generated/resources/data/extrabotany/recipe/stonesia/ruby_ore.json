@@ -1,0 +1,17 @@
+{
+  "type": "extrabotany:stonesia",
+  "input": {
+    "type": "botania:any_of",
+    "ingredients": [
+      {
+        "type": "botania:tag",
+        "tag": "#c:ores/ruby"
+      },
+      {
+        "type": "botania:tag",
+        "tag": "#forge:ores/ruby"
+      }
+    ]
+  },
+  "outputMana": 800
+}

@@ -1,0 +1,43 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+.cache
+
+# other
+eclipse
+run
+run-data
+Xplat/src/generated/resources/.cache
+NeoForge/src/generated/resources/.cache
+Fabric/src/generated/resources/.cache
+
+
+
+# Local migration backups and diagnostic logs
+.codex-backup/
+
+# Local development and credentials
+run*/
+.codex-backup/
+.env
+.env.*
+*.log
+*.jks
+*.p12
+*.pem
+local.properties

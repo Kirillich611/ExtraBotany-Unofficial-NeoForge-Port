@@ -1,0 +1,17 @@
+{
+  "type": "extrabotany:stonesia",
+  "input": {
+    "type": "botania:any_of",
+    "ingredients": [
+      {
+        "type": "botania:tag",
+        "tag": "#c:ores/apatite"
+      },
+      {
+        "type": "botania:tag",
+        "tag": "#forge:ores/apatite"
+      }
+    ]
+  },
+  "outputMana": 100
+}

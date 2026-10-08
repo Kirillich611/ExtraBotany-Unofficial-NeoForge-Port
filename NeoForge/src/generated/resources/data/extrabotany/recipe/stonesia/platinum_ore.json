@@ -1,0 +1,17 @@
+{
+  "type": "extrabotany:stonesia",
+  "input": {
+    "type": "botania:any_of",
+    "ingredients": [
+      {
+        "type": "botania:tag",
+        "tag": "#c:ores/platinum"
+      },
+      {
+        "type": "botania:tag",
+        "tag": "#forge:ores/platinum"
+      }
+    ]
+  },
+  "outputMana": 800
+}

@@ -1,0 +1,77 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+issueTrackerURL="https://github.com/lounode/ExtraBotany/issues"
+
+[[mods]]
+    modId="${mod_id}"
+    version="${mod_version}"
+    displayName="${mod_name}"
+    displayURL="https://github.com/lounode/ExtraBotany"
+    #updateJSONURL=""
+    logoFile="${mod_logo}"
+    credits="${mod_credits}"
+    authors="${mod_authors}"
+    description='''${mod_description}'''
+
+#Necessary
+[[dependencies."${mod_id}"]]
+    modId="neoforge"
+    type="required"
+    versionRange="${neo_forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies."${mod_id}"]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies."${mod_id}"]]
+    modId="botania"
+    type="required"
+    versionRange="${botania_version_range}"
+    ordering="AFTER"
+    side="BOTH"
+
+
+#Integration
+[[dependencies."${mod_id}"]]
+    modId="jei"
+    type="optional"
+    versionRange="${jei_version_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies."${mod_id}"]]
+    modId="kubejs"
+    type="optional"
+    versionRange="${kubejs_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+#[[dependencies."${mod_id}"]]
+#    modId="mantle"
+#    type="optional"
+#    versionRange="${mantle_version_range}"
+#    ordering="NONE"
+#    side="BOTH"
+#
+#[[dependencies."${mod_id}"]]
+#    modId="tconstruct"
+#    type="optional"
+#    versionRange="${tinkers_version_range}"
+#    ordering="AFTER"
+#    side="BOTH"
+
+#[[dependencies."${mod_id}"]]
+#    modId="theoneprobe"
+#    type="optional"
+#    versionRange="${top_version_range}"
+#    ordering="NONE"
+#    side="BOTH"
+[[mixins]]
+    config="extrabotany_xplat.mixins.json"
+[[mixins]]
+    config="extrabotany_forge.mixins.json"

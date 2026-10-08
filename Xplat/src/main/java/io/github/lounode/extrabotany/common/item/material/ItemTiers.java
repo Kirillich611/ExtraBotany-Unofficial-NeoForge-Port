@@ -1,0 +1,64 @@
+package io.github.lounode.extrabotany.common.item.material;
+
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.crafting.Ingredient;
+
+import io.github.lounode.extrabotany.common.item.ExtraBotanyItems;
+
+import java.util.function.Supplier;
+
+public enum ItemTiers implements Tier {
+	EXCALIBUR(2031, 9.0F, 4, 4, 30, () -> ExtraBotanyItems.dasRheingold),
+	ACHILLES_SHIELD(4600, 9.0F, 4.0F, 4, 26, () -> ExtraBotanyItems.orichalcos);
+
+	private final int maxUses;
+	private final float efficiency;
+	private final float attackDamage;
+	private final int harvestLevel;
+	private final int enchantability;
+	private final Supplier<Item> repairItem;
+
+	ItemTiers(int maxUses, float efficiency, float attackDamage, int harvestLevel, int enchantability, Supplier<Item> repairItem) {
+		this.maxUses = maxUses;
+		this.efficiency = efficiency;
+		this.attackDamage = attackDamage;
+		this.harvestLevel = harvestLevel;
+		this.enchantability = enchantability;
+		this.repairItem = repairItem;
+	}
+
+	@Override
+	public int getUses() {
+		return maxUses;
+	}
+
+	@Override
+	public float getSpeed() {
+		return efficiency;
+	}
+
+	@Override
+	public float getAttackDamageBonus() {
+		return attackDamage;
+	}
+
+	public int getLevel() {
+		return harvestLevel;
+	}
+
+	@Override
+	public int getEnchantmentValue() {
+		return enchantability;
+	}
+
+	@Override
+	public Ingredient getRepairIngredient() {
+		return Ingredient.of(repairItem.get());
+	}
+
+	@Override
+	public net.minecraft.tags.TagKey<net.minecraft.world.level.block.Block> getIncorrectBlocksForDrops() {
+		return harvestLevel >= 3 ? net.minecraft.tags.BlockTags.INCORRECT_FOR_NETHERITE_TOOL : net.minecraft.tags.BlockTags.INCORRECT_FOR_IRON_TOOL;
+	}
+}

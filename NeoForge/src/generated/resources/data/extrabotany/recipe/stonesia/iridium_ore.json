@@ -1,0 +1,17 @@
+{
+  "type": "extrabotany:stonesia",
+  "input": {
+    "type": "botania:any_of",
+    "ingredients": [
+      {
+        "type": "botania:tag",
+        "tag": "#c:ores/iridium"
+      },
+      {
+        "type": "botania:tag",
+        "tag": "#forge:ores/iridium"
+      }
+    ]
+  },
+  "outputMana": 800
+}

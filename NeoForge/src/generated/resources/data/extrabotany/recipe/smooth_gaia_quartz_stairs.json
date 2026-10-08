@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "extrabotany:quartz_stairs",
+  "key": {
+    "B": {
+      "item": "extrabotany:smooth_gaia_quartz"
+    }
+  },
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "result": {
+    "count": 4,
+    "id": "extrabotany:smooth_gaia_quartz_stairs"
+  }
+}

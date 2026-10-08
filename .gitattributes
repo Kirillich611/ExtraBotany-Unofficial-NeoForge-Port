@@ -6,3 +6,7 @@ src/generated/**/*.json text eol=lf
 
 # Windows wrapper must use CRLF for cmd.exe.
 gradlew.bat text eol=crlf
+
+# Windows development launchers
+gradlew.bat text eol=crlf
+launch-*.cmd text eol=crlf

@@ -4,6 +4,8 @@ An unofficial Minecraft 1.21.1 NeoForge port of ExtraBotany: Reburn, built for o
 
 **Minecraft:** 1.21.1 · **Loader:** NeoForge · **Validated loader:** 21.1.248 · **Java:** 21 · **Version:** 1.9.3 (runtime metadata includes SNAPSHOT).
 
+ExtraBotany: Reburn extends Botania with equipment, relics, additional generating and functional flowers, and Gaia-related content. This fork adapts the addon to the matching unofficial Botania port on NeoForge 1.21.1.
+
 ## Installation
 
 Install the runtime JAR in mods on both client and server. Required dependencies: Our Botania 457.1-SNAPSHOT port, plus Patchouli and Curios for NeoForge 1.21.1. Do not substitute a different Botania build without checking compatibility. Source JARs are for reading code, not installation. Never install this fork alongside another mod with the same mod ID.
@@ -53,3 +55,9 @@ Generative AI assisted porting, compatibility fixes, and preparation of this doc
 Неофициальный порт для Minecraft 1.21.1 / NeoForge. Ответственный за этот форк: Kirillich611. Автор исходного порта Botania: DragonFire. Авторы оригиналов: Vazkii и команда Botania; Lounode и команда ExtraBotany.
 
 О найденных ошибках сообщайте в Issues этого форка, приложив версии модов, действия для воспроизведения и лог или crash report без личных данных.
+
+## Screenshots
+
+Actual captures from the test profile; shader and other-mod visuals belong to their respective projects.
+
+![In-game validation](docs/screenshots/2026-10-07_18.14.26.png)

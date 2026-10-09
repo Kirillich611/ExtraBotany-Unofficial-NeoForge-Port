@@ -1,6 +1,6 @@
 # Icon credits
 
-This port icon combines the original mod icon with a NeoForged fox badge. The badge was added and the images resized; no AI image generation was used. The badge identifies the loader and does not imply endorsement by NeoForged or the original mod authors.
+This port icon combines the original mod icon with a NeoForged fox badge. The badge was added and the images resized. The badge identifies the loader and does not imply endorsement by NeoForged or the original mod authors.
 
 Original mod artwork remains subject to the repository's original license and copyright notices.
 

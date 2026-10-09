@@ -1,9 +1,9 @@
 # ExtraBotany: Reburn — Unofficial NeoForge Port
 
-Неофициальный порт **ExtraBotany: Reburn для Minecraft 1.21.1 / NeoForge**. Нужны **Java 21, Patchouli, Curios** и [наш порт Botania 457.1](https://github.com/Kirillich611/Botania-Unofficial-NeoForge-Port).
+An unofficial port of **ExtraBotany: Reburn for Minecraft 1.21.1 / NeoForge**.
 
-Оригинальная ExtraBotany: Reburn создана **Lounode и участниками проекта**. Лицензия [MIT](LICENSE) и исходные уведомления об авторстве сохранены.
+Requires **Java 21, Patchouli, Curios**, and [our Botania port](https://github.com/Kirillich611/Botania-Unofficial-NeoForge-Port).
 
-Перед установкой в старый мир сделайте резервную копию. Не устанавливайте одновременно с другой ExtraBotany.
+Original mod by **Lounode and the ExtraBotany contributors**. Distributed under the [MIT License](LICENSE), with original copyright notices preserved.
 
-Хотите порт на другую версию Minecraft? Напишите в [Issues](https://github.com/Kirillich611/ExtraBotany-Reburn-Unofficial-NeoForge-Port/issues).
+Want a port for another Minecraft version? Open an [issue](https://github.com/Kirillich611/ExtraBotany-Reburn-Unofficial-NeoForge-Port/issues).
